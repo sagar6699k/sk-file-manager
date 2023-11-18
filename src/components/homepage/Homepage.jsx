@@ -1,5 +1,6 @@
 import "./homepage.css";
 import Form from "react-bootstrap/Form";
+import Button from "react-bootstrap/Button";
 
 const Homepage = () => {
   let list = [
@@ -21,6 +22,8 @@ const Homepage = () => {
           <Form.Label>Upload the required file</Form.Label>
           <Form.Control type="file" />
         </Form.Group>
+
+        <Button variant="secondary">Upload</Button>
       </div>
       <div className="list_section">
         {list.map((ele, index) => {
