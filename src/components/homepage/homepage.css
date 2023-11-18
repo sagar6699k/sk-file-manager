@@ -1,0 +1,51 @@
+/* Styles for larger screens */
+.homepage_container {
+  width: 60%;
+  margin: auto;
+  border: 1px solid rgb(243, 220, 220);
+  border-radius: 0.3rem;
+  padding: 1rem;
+  background-color: rgb(241, 249, 195);
+}
+
+.input_section{
+    margin-bottom: 3rem;
+}
+
+.list_section{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+.list_item{
+    border-radius: 0.3rem;
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+    background-color: white;
+}
+.list_item_content{
+    display: flex;
+    gap: 1.5rem;
+}
+.list_item_action_btn{
+    cursor: pointer;
+}
+
+
+
+/* Media query for screens 600px and smaller */
+@media only screen and (max-width: 600px) {
+  .homepage_container {
+    width: 75%;
+    padding: 1rem;
+  }
+}
+
+/* Media query for screens 400px and smaller */
+@media only screen and (max-width: 400px) {
+  .homepage_container {
+    width: 100%;
+    padding: 1rem;
+  }
+}
