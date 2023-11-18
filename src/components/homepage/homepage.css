@@ -2,10 +2,9 @@
 .homepage_container {
   width: 60%;
   margin: auto;
-  border: 1px solid rgb(243, 220, 220);
   border-radius: 0.3rem;
   padding: 1rem;
-  background-color: rgb(241, 249, 195);
+  background-color: rgb(244, 246, 249);
 }
 
 .input_section{
@@ -35,7 +34,7 @@
 
 
 /* Media query for screens 600px and smaller */
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 756px) {
   .homepage_container {
     width: 75%;
     padding: 1rem;
@@ -43,7 +42,7 @@
 }
 
 /* Media query for screens 400px and smaller */
-@media only screen and (max-width: 400px) {
+@media only screen and (max-width: 500px) {
   .homepage_container {
     width: 100%;
     padding: 1rem;
